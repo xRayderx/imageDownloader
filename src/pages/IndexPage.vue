@@ -4,7 +4,7 @@
       <h1 class="text-center">Image Downloader App</h1>
       <q-form @submit.prevent="handleSubmitUrl" class="formStyle">
         <span class="text-weight-medium q-mb-sm">
-          Ingresa la URL de la página web o de la imagen que deseas descargar:
+          Ingresa la URL de la página web que deseas descargar:
         </span>
         <q-input color="blue-8" bg-color="grey-2" v-model.trim="url" outlined dense class="q-mb-md full-width" label="Ingresa la URL aqui...">
           <template v-slot:append>

@@ -2,9 +2,9 @@ import { RouteRecordRaw } from 'vue-router';
 
 const routes: RouteRecordRaw[] = [
   {
-    path: '/',
+    path: "/",
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    children: [{ path: "/downloader", component: () => import('pages/IndexPage.vue') }],
   },
 
   // Always leave this as last one,

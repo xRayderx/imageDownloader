@@ -39,7 +39,7 @@ const handleSubmitUrl = async () => {
     const res = await axios.post('http://127.0.0.1:5000/descargar', { url: url.value })
     images.value = images.value.concat(res.data)
   } catch (error) {
-    console.log("Error al realizar la solicitud: ", error)
+    console.log('Error al realizar la solicitud: ', error)
   }
 }
 </script>

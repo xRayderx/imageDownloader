@@ -1,0 +1,14 @@
+name: imagedownloader
+version: 0.0.1
+language: python
+dependencies:
+  - @quasar/extras
+  - axios
+  - quasar
+  - vue
+  - vue-router
+  - flask
+resources:
+  - memory: 512
+  - disk: 1
+command: python app.py
